@@ -1,0 +1,30 @@
+*{padding: 0; margin: 0; box-sizing: border-box;}
+
+
+// VARIABLES
+
+$colors: (
+    primary:#011526,
+    secondary: #013440,
+    tertiary: #012623,
+    quaternary:#bf344d,
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name);
+}
+
+$font-sizes: (
+    xl: 3rem,
+    lg: 2.5rem,
+    md: 2rem,
+    sm: 1.8rem,
+    xs: 1rem
+);
+
+@function size($size){
+    @return map-get($font-sizes, $size);
+}
+
+$font-robotoslab: 'Roboto Slab', sans-serif;
+$font-butterfly: 'Butterfly Kids', sans-serif;

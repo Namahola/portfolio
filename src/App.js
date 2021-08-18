@@ -1,12 +1,16 @@
 import './scss/main.scss';
-import Home from './components/home';
+
+import Nav from './components/Nav.js';
 
 
 function App() {
   return (
     <div className="App">
-    <h1 className="hello">Helllo world!</h1>
-    <Home />
+      <div className="header">
+        <Nav />
+      </div>
+    
+    
     </div>
   );
 }

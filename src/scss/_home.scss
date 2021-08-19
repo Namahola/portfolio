@@ -1,6 +1,17 @@
-
-.Home{
-    &-heading{
-        color: white;
+.home {
+  height: 80vh;
+  background-color: color(primary);
+  &-heading {
+    font-family: $font-sacramento;
+    font-size: size(xl) * 1.2;
+    color: white;
+  }
+  &-wrapper {
+    &-box {
     }
+    &-img {
+      width: 50%;
+      height: 50%;
+    }
+  }
 }

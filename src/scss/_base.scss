@@ -1,32 +1,35 @@
-*{padding: 0; margin: 0; box-sizing: border-box;}
-
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 // VARIABLES
 
 $colors: (
-    primary:#011526,
-    secondary: #013440,
-    tertiary: #012623,
-    quaternary:#bf344d,
+  primary: #011526,
+  secondary: #013440,
+  tertiary: #012623,
+  quaternary: #bf344d,
 );
 
-@function color($color-name){
-    @return map-get($colors, $color-name);
+@function color($color-name) {
+  @return map-get($colors, $color-name);
 }
 
 $font-sizes: (
-    xl: 3rem,
-    lg: 2.5rem,
-    md: 2rem,
-    sm: 1.5rem,
-    xs: 1rem
+  xl: 3.5rem,
+  lg: 3rem,
+  md: 2.5rem,
+  sm: 2rem,
+  xs: 1.5rem,
 );
 
-@function size($size){
-    @return map-get($font-sizes, $size);
+@function size($size) {
+  @return map-get($font-sizes, $size);
 }
 
-$font-fredoka: 'Fredoka One', sans-serif;
-$font-sacramento: 'Sacramento', sans-serif;
-$font-sacramento: 'Poiret One', sans-serif;
-$font-sacramento: 'Raleway', sans-serif;
+$font-fredoka: "Fredoka One", sans-serif;
+$font-sacramento: "Sacramento", sans-serif;
+$font-poiret: "Poiret One", sans-serif;
+$font-raleway: "Raleway", sans-serif;

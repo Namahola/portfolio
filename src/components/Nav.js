@@ -1,6 +1,7 @@
 import React from "react";
-import { Link, Router } from "@reach/router";
-import Home from "./home";
+import { Link } from "@reach/router";
+// import Home from "./home";
+// import About from "./about";
 
 function Nav() {
   return (
@@ -13,7 +14,7 @@ function Nav() {
         </div>
         <nav className="nav">
           <div className="nav-box">
-            <Link to="/home" className="nav-box-link">
+            <Link to="/" className="nav-box-link">
               Home
             </Link>
           </div>
@@ -34,10 +35,6 @@ function Nav() {
           </div>
         </nav>
       </div>
-
-      <Router>
-        <Home path="/home" />
-      </Router>
     </div>
   );
 }

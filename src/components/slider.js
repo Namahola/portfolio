@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import { SliderData } from "./sliderData";
-import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
+import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -23,11 +23,8 @@ const Slider = ({ slides }) => {
 
   return (
     <div className="slider">
-      <FaArrowAltCircleLeft className="slider-arrowLeft" onClick={prevSlide} />
-      <FaArrowAltCircleRight
-        className="slider-arrowRight"
-        onClick={nextSlide}
-      />
+      <FaArrowCircleLeft className="slider-arrowLeft" onClick={prevSlide} />
+      <FaArrowCircleRight className="slider-arrowRight" onClick={nextSlide} />
       {SliderData.map((slide, index) => (
         <div
           className={index === current ? "slide active" : "slide "}

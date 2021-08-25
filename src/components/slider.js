@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 import { SliderData } from "./sliderData";
 import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
 
@@ -26,19 +25,20 @@ const Slider = ({ slides }) => {
       <FaArrowCircleLeft className="slider-arrowLeft" onClick={prevSlide} />
       <FaArrowCircleRight className="slider-arrowRight" onClick={nextSlide} />
       {SliderData.map((slide, index) => (
-        <div
+        <a
+          href="/work"
           className={index === current ? "slide active" : "slide "}
           key={index}
         >
           {index === current && (
             <img
-              src={slide.image}
+              src={slide.src}
               key={slide.id}
               alt="billede"
               className="slider-img"
             />
           )}
-        </div>
+        </a>
       ))}
     </div>
   );

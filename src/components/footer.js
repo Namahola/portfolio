@@ -7,12 +7,12 @@ function Footer() {
     <div>
       <footer className="footer">
         <ul className="footer-contact">
-          <li className="footer-contact-item">Contact</li>
+          <li className="footer-contact-item">Kontakt</li>
           <li className="footer-contact-item">Nanna Laursen</li>
           <li className="footer-contact-item">
             E-mail: nannalaursen@gmail.com
           </li>
-          <li className="footer-contact-item">Phone: +4528515736</li>
+          <li className="footer-contact-item">Telefon: +4528515736</li>
         </ul>
         <div className="footer-social">
           <a
@@ -25,17 +25,17 @@ function Footer() {
         <ul className="footer-menu">
           <li className="footer-menu-item">
             <Link to="/" className="footer-menu-item-link">
-              Home
+              Hjem
             </Link>
           </li>
           <li className="footer-menu-item">
             <Link to="/work" className="footer-menu-item-link">
-              Work
+              Projekter
             </Link>
           </li>
           <li className="footer-menu-item">
             <Link to="/about" className="footer-menu-item-link">
-              About
+              Om
             </Link>
           </li>
         </ul>

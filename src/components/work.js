@@ -1,12 +1,7 @@
 import React from "react";
-import Gallery from "./Gallery.js";
 
 function Work() {
-  return (
-    <div>
-      <Gallery />
-    </div>
-  );
+  return <div></div>;
 }
 
 export default Work;

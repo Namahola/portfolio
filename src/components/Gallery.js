@@ -4,10 +4,15 @@ import React from "react";
 
 function Gallery() {
   return (
-    <div>
+    <div className="gallery">
       {GalleryData.map((image) => (
-        <div>
-          <img src={image.src} key={image.id} alt="billede" />
+        <div className="gallery-box">
+          <img
+            className="gallery-image"
+            src={image.src}
+            key={image.id}
+            alt="billede"
+          />
         </div>
       ))}
     </div>

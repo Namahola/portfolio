@@ -2,32 +2,33 @@
   display: grid;
   grid-template-columns: 1fr 2fr 8fr 2fr 1fr;
   grid-template-rows: 1fr 4fr 1fr;
-  height: auto;
-  background-color: color(primary);
+  height: 100vh;
+  background-color: color(secondary);
   &-heading {
     grid-area: 1/3/2/4;
     font-family: $font-sacramento;
     font-size: size(xl) * 1.2;
     color: white;
     text-align: center;
+    padding-top: 40px;
   }
 }
 
 .home-section1 {
-  background-color: color(secondary);
+  background-color: color(primary);
   text-align: center;
-  height: 60vh;
+  height: 90vh;
   &-heading {
     color: white;
     font-family: $font-sacramento;
-    font-size: size(xl) * 1.2;
+    font-size: size(xl) * 1.5;
     padding-top: 5%;
   }
   &-text {
     color: white;
     font-family: $font-raleway;
-    font-size: size(sm);
-    padding: 3% 20% 0px 20%;
+    font-size: size(md);
+    padding: 5% 20% 0px 20%;
     letter-spacing: 1px;
     line-height: 1.2;
   }

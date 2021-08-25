@@ -1,0 +1,14 @@
+.gallery {
+  display: grid;
+  height: 100vh;
+  gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 200px;
+  padding: 20px 150px 0px 150px;
+  background-color: color(primary);
+  &-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}

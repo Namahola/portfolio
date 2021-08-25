@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "@reach/router";
-// import Home from "./home";
-// import About from "./about";
 
 function Nav() {
   return (
@@ -15,22 +13,22 @@ function Nav() {
         <nav className="nav">
           <div className="nav-box">
             <Link to="/" className="nav-box-link">
-              Home
+              Hjem
             </Link>
           </div>
           <div className="nav-box">
             <Link to="/work" className="nav-box-link">
-              Work
+              Projekter
             </Link>
           </div>
           <div className="nav-box">
             <Link to="/about" className="nav-box-link">
-              About
+              Om
             </Link>
           </div>
           <div className="nav-box">
             <Link to="/about" className="nav-box-link">
-              Contact
+              Kontakt
             </Link>
           </div>
         </nav>

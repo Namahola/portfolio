@@ -10,9 +10,10 @@ function Footer() {
           <li className="footer-contact-item">Kontakt</li>
           <li className="footer-contact-item">Nanna Laursen</li>
           <li className="footer-contact-item">
-            E-mail: nannalaursen@gmail.com
+            E-mail:
+            <a href="mailto:nannalaursen@gmail.com"> nannalaursen@gmail.com</a>
           </li>
-          <li className="footer-contact-item">Telefon: +4528515736</li>
+          <li className="footer-contact-item">Telefon: 28515736</li>
         </ul>
         <div className="footer-social">
           <a

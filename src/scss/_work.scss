@@ -2,6 +2,10 @@
   background-color: color(primary);
   text-align: center;
   padding: 0px 300px 100px 300px;
+  @media (max-width: 800px) {
+    padding: 0px 60px 100px 60px;
+  }
+
   &-title {
     font-family: $font-poiret;
     font-size: size(lg);

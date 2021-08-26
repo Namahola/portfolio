@@ -1,0 +1,19 @@
+.about {
+  background-color: color(primary);
+  text-align: center;
+  height: 90vh;
+  &-heading {
+    color: white;
+    font-family: $font-sacramento;
+    font-size: size(xl) * 1.5;
+    padding-top: 5%;
+  }
+  &-text {
+    color: white;
+    font-family: $font-raleway;
+    font-size: size(sm);
+    padding: 5% 20% 0px 20%;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+}

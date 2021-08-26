@@ -6,7 +6,7 @@ function Nav() {
     <div>
       <div className="header">
         <div className="logo">
-          <Link to="/home" className="logo-link">
+          <Link to="/" className="logo-link">
             <h1 className="logo-heading">nannalaursen</h1>
           </Link>
         </div>
@@ -24,11 +24,6 @@ function Nav() {
           <div className="nav-box">
             <Link to="/about" className="nav-box-link">
               Om
-            </Link>
-          </div>
-          <div className="nav-box">
-            <Link to="/about" className="nav-box-link">
-              Kontakt
             </Link>
           </div>
         </nav>

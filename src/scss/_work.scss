@@ -1,8 +1,19 @@
 .work {
   background-color: color(primary);
-  display: grid;
-  grid-template-columns: 1fr 5fr 1fr;
-  grid-template-rows: 1fr;
+  text-align: center;
+  padding: 0px 300px 100px 300px;
+  &-title {
+    font-family: $font-poiret;
+    font-size: size(lg);
+    color: white;
+    padding: 40px 0px 20px 0px;
+  }
+  &-description {
+    font-family: $font-raleway;
+    font-size: size(sm);
+    color: white;
+    padding: 0px 0px 20px 0px;
+  }
   &-image {
     width: 100%;
     height: 100%;

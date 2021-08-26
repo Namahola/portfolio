@@ -5,7 +5,6 @@ import vikingmenu from "../img/vikingmenu.PNG";
 import excalibur from "../img/excalibur1.png";
 import movieDB from "../img/movieDB1.png";
 import periodic from "../img/periodicTable.png";
-import valorant from "../img/valorant.png";
 
 export const SliderData = [
   {
@@ -35,10 +34,6 @@ export const SliderData = [
   {
     src: periodic,
     id: "image7",
-  },
-  {
-    src: valorant,
-    id: "image8",
   },
 ];
 

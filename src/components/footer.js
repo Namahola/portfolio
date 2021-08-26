@@ -5,7 +5,7 @@ import { Link } from "@reach/router";
 function Footer() {
   return (
     <div>
-      <footer className="footer">
+      <footer id="footer" className="footer">
         <ul className="footer-contact">
           <li className="footer-contact-item">Kontakt</li>
           <li className="footer-contact-item">Nanna Laursen</li>

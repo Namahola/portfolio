@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
+  grid-template-columns: 1fr 3fr 2fr;
   grid-template-rows: 1fr;
   height: 15vh;
   background-color: color(primary);
@@ -48,7 +48,7 @@
       text-decoration: none;
     }
     &:hover {
-      background-color: color(secondary);
+      opacity: 0.5;
     }
   }
 }

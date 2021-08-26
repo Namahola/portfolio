@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { SliderData } from "./sliderData";
-import { FaArrowCircleRight, FaArrowCircleLeft } from "react-icons/fa";
+import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -22,8 +22,8 @@ const Slider = ({ slides }) => {
 
   return (
     <div className="slider">
-      <FaArrowCircleLeft className="slider-arrowLeft" onClick={prevSlide} />
-      <FaArrowCircleRight className="slider-arrowRight" onClick={nextSlide} />
+      <MdKeyboardArrowLeft className="slider-arrowLeft" onClick={prevSlide} />
+      <MdKeyboardArrowRight className="slider-arrowRight" onClick={nextSlide} />
       {SliderData.map((slide, index) => (
         <a
           href="/work"

@@ -21,7 +21,7 @@ function Home() {
         </span>
       </section>
       <section className="home-section2">
-        <h2 className="home-section2-heading">Mit arbejde</h2>
+        <h2 className="home-section2-heading">Projekter</h2>
         <Slider slides={SliderData} />
       </section>
 

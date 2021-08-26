@@ -1,0 +1,11 @@
+.work {
+  background-color: color(primary);
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr;
+  &-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

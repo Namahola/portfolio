@@ -6,6 +6,9 @@
     display: grid;
     grid-template-rows: 1fr 1.5fr 0.5fr 1fr;
     grid-template-columns: repeat(6, 1fr);
+    @media (max-width: 600px) {
+      height: auto;
+    }
     &-heading {
       grid-area: 1/2/2/6;
       color: white;

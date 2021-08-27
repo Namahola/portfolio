@@ -20,6 +20,9 @@
     color: white;
     cursor: pointer;
     user-select: none;
+    &:hover {
+      opacity: 0.5;
+    }
     @media (max-width: 800px) {
       padding-left: 20px;
     }
@@ -33,6 +36,9 @@
     user-select: none;
     @media (max-width: 800px) {
       padding-right: 20px;
+    }
+    &:hover {
+      opacity: 0.5;
     }
   }
   @media (max-width: 800px) {

@@ -1,0 +1,145 @@
+.home {
+  &-section1 {
+    background-color: color(primary);
+    text-align: center;
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 1.5fr 0.5fr 1fr;
+    grid-template-columns: repeat(6, 1fr);
+    @media (max-width: 600px) {
+      height: auto;
+    }
+    &-heading {
+      grid-area: 1/2/2/6;
+      color: white;
+      font-family: $font-poiret;
+      font-size: size(xl);
+      font-weight: bolder;
+      padding-top: 100px;
+      text-transform: uppercase;
+    }
+    &-text {
+      grid-area: 2/2/3/6;
+      color: white;
+      font-family: $font-raleway;
+      font-size: size(md);
+      padding-top: 30px;
+      letter-spacing: 1px;
+      line-height: 1.2;
+    }
+
+    &-btn1 {
+      grid-area: 3/3/4/4;
+      position: relative;
+      display: inline-flex;
+      width: 180px;
+      height: 55px;
+      margin: 0 15px;
+      perspective: 1000px;
+
+      & a {
+        font-size: 19px;
+        letter-spacing: 1px;
+        transform-style: preserve-3d;
+        transform: translateZ(-25px);
+        transition: transform 0.25s;
+        font-family: $font-raleway;
+        font-weight: bold;
+      }
+      & a:before,
+      & a:after {
+        text-transform: uppercase;
+        position: absolute;
+        content: "Projekter";
+        height: 55px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid white;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+      & a:before {
+        color: #fff;
+
+        transform: rotateY(0deg) translateZ(25px);
+      }
+      & a:after {
+        color: white;
+        transform: rotateX(90deg) translateZ(25px);
+      }
+      & a:hover {
+        transform: translateZ(-25px) rotateX(-90deg);
+      }
+      @media (max-width: 800px) {
+        padding-top: 50px;
+      }
+    }
+
+    &-btn2 {
+      grid-area: 3/4/4/5;
+      position: relative;
+      display: inline-flex;
+      width: 180px;
+      height: 55px;
+      margin: 0 15px;
+      perspective: 1000px;
+
+      & a {
+        font-size: 19px;
+        letter-spacing: 1px;
+        transform-style: preserve-3d;
+        transform: translateZ(-25px);
+        transition: transform 0.25s;
+        font-family: $font-raleway;
+        font-weight: bold;
+      }
+      & a:before,
+      & a:after {
+        text-transform: uppercase;
+        position: absolute;
+        content: "Kontakt";
+        height: 55px;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid white;
+        box-sizing: border-box;
+        border-radius: 3px;
+      }
+      & a:before {
+        color: #fff;
+
+        transform: rotateY(0deg) translateZ(25px);
+      }
+      & a:after {
+        color: white;
+        transform: rotateX(90deg) translateZ(25px);
+      }
+      & a:hover {
+        transform: translateZ(-25px) rotateX(-90deg);
+      }
+      @media (max-width: 800px) {
+        padding-top: 50px;
+      }
+    }
+  }
+  &-section2 {
+    // display: grid;
+    // grid-template-columns: 1fr 2fr 8fr 2fr 1fr;
+    // grid-template-rows: 1fr 4fr 1fr;
+    height: 120vh;
+    background-color: color(secondary);
+    &-heading {
+      grid-area: 1/3/2/4;
+      font-family: $font-poiret;
+      font-size: size(xl) * 1.2;
+      color: white;
+      text-align: center;
+      padding-top: 60px;
+      text-transform: uppercase;
+    }
+  }
+}

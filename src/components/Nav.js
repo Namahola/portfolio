@@ -24,9 +24,7 @@ function Nav() {
             </Link>
           </div>
           <div className="nav-box">
-            <Link to="/about" className="nav-box-link">
-              Om
-            </Link>
+            <a href="/#footer">Kontakt</a>
           </div>
         </nav>
       </div>

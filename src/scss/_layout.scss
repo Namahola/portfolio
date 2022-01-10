@@ -52,6 +52,11 @@
     margin: 0px 30px 100px 30px;
     padding: 10px;
     border-radius: 5px 20px 5px;
+    & a {
+      color: white;
+      font-size: x-large;
+      text-decoration: none;
+    }
     &-link {
       color: white;
       font-size: x-large;

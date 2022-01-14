@@ -9,16 +9,14 @@ const Gallery = () => {
   return (
     <div className="gallery">
       {GalleryData.map((image) => (
-        <div className="gallery-box">
-          <ModalImage
-            key={image.id}
-            hideDownload={true}
-            hideZoom={true}
-            className="gallery-img"
-            small={image.small}
-            large={image.large}
-          />
-        </div>
+        <ModalImage
+          key={image.id}
+          hideDownload={true}
+          hideZoom={true}
+          className="gallery-img"
+          small={image.small}
+          large={image.large}
+        />
       ))}
     </div>
   );

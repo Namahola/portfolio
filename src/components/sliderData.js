@@ -1,10 +1,11 @@
-import leonardo from "../img/Leonardo.PNG";
-import verdensende from "../img/Udklip.PNG";
-import vikingfood from "../img/vikingfood.PNG";
-import vikingmenu from "../img/vikingmenu.PNG";
-import excalibur from "../img/excalibur1.png";
-import movieDB from "../img/movieDB1.png";
-import periodic from "../img/periodicTable.png";
+import leonardo from "../img/leonardoLarge.PNG";
+import verdensende from "../img/verdensEndeLarge.PNG";
+import vikingfood from "../img/vikingfoodLarge.PNG";
+import iot from "../img/iotLarge.png";
+import naturaarhus from "../img/naturAarhusLarge.png";
+import excalibur from "../img/excaliburLarge.png";
+import movieDB from "../img/moviedbLarge.png";
+import periodic from "../img/periodicTableLarge.png";
 
 export const SliderData = [
   {
@@ -20,20 +21,24 @@ export const SliderData = [
     id: "image3",
   },
   {
-    src: vikingmenu,
+    src: iot,
     id: "image4",
   },
   {
-    src: excalibur,
+    src: naturaarhus,
     id: "image5",
   },
   {
-    src: movieDB,
+    src: excalibur,
     id: "image6",
   },
   {
-    src: periodic,
+    src: movieDB,
     id: "image7",
+  },
+  {
+    src: periodic,
+    id: "image8",
   },
 ];
 

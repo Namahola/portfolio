@@ -6,9 +6,7 @@ import Gallery from "./Gallery.js";
 function Work() {
   return (
     <div>
-      <div className="work">
-        <Gallery></Gallery>
-      </div>
+      <Gallery />
       <Footer />
     </div>
   );

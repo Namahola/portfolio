@@ -647,37 +647,82 @@ table {
           transform: scale(1.05);
 }
 
-.work {
+.gallery {
   background-color: #011526;
-  text-align: center;
-  padding: 0px 300px 100px 300px;
+  display: -ms-grid;
+  display: grid;
+  height: 80vh;
+  gap: 40px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  padding: 50px;
 }
 
-@media (max-width: 800px) {
-  .work {
-    padding: 0px 60px 100px 60px;
-  }
+.gallery-box:nth-of-type(1) {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: 1/1/3/3;
 }
 
-.work-title {
-  font-family: "Poiret One", sans-serif;
-  font-size: 3rem;
-  color: white;
-  padding: 40px 0px 20px 0px;
+.gallery-box:nth-of-type(2) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 3/1/4/2;
 }
 
-.work-description {
-  font-family: "Raleway", sans-serif;
-  font-size: 1.5rem;
-  color: white;
-  padding: 0px 0px 20px 0px;
+.gallery-box:nth-of-type(3) {
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 3/2/4/3;
 }
 
-.work-image {
+.gallery-box:nth-of-type(4) {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 1/3/2/4;
+}
+
+.gallery-box:nth-of-type(5) {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 1/4/2/5;
+}
+
+.gallery-box:last-of-type {
+  grid-row: span 2;
+  grid-column: span 2;
+}
+
+.gallery-img {
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+}
+
+.gallery-img:hover {
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 0px 0px 5px 2px #222222;
+          box-shadow: 0px 0px 5px 2px #222222;
 }
 
 .about {

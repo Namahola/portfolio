@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useLayoutEffect } from "react";
 import Footer from "./footer";
 // import Gallery from "./Gallery";
 import Slider from "./slider";
 import SliderData from "./sliderData.js";
 
 function Home() {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <div className="home">
       <section className="home-section1">

@@ -1,6 +1,7 @@
 import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { Link } from "@reach/router";
+import pdf from "../CV_DANSK (2).pdf";
 
 function Footer() {
   return (
@@ -35,9 +36,14 @@ function Footer() {
             </Link>
           </li>
           <li className="footer-menu-item">
-            <Link to="/about" className="footer-menu-item-link">
-              Om
-            </Link>
+            <a
+              href={pdf}
+              target="_blank"
+              rel="noreferrer"
+              className="footer-menu-item-link"
+            >
+              CV
+            </a>
           </li>
         </ul>
       </footer>

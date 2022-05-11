@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 import { GiHamburgerMenu } from "react-icons/gi";
+import pdf from "../CV_DANSK (2).pdf";
 
 function Nav() {
   return (
@@ -24,7 +25,9 @@ function Nav() {
             </Link>
           </div>
           <div className="nav-box">
-            <a href="/#footer">Kontakt</a>
+            <a href={pdf} target="_blank" rel="noreferrer">
+              CV
+            </a>
           </div>
         </nav>
       </div>

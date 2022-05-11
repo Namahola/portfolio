@@ -1,6 +1,5 @@
 import React, { useLayoutEffect } from "react";
 import Footer from "./footer";
-// import Gallery from "./Gallery";
 import Slider from "./slider";
 import SliderData from "./sliderData.js";
 
@@ -27,7 +26,6 @@ function Home() {
       <section className="home-section2">
         <h2 className="home-section2-heading">Projekter</h2>
         <Slider slides={SliderData} />
-        {/* <Gallery /> */}
       </section>
 
       <Footer />

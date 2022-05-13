@@ -1,5 +1,6 @@
 import React, { useLayoutEffect } from "react";
 import Footer from "./footer";
+import Nav from "./Nav";
 import Slider from "./slider";
 import SliderData from "./sliderData.js";
 
@@ -9,6 +10,7 @@ function Home() {
   });
   return (
     <div className="home">
+      <Nav />
       <section className="home-section1">
         <h1 className="home-section1-heading">Webdesign og webudvikling</h1>
         <p className="home-section1-text">

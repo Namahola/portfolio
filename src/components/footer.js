@@ -1,7 +1,7 @@
 import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
 import { FaGithubSquare } from "react-icons/fa";
-import { Link } from "@reach/router";
+import { Link } from "react-router-dom";
 import pdf from "../CV_DANSK (2).pdf";
 
 function Footer() {

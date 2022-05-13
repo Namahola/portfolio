@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
-import { GiHamburgerMenu } from "react-icons/gi";
 import pdf from "../CV_DANSK (2).pdf";
+import { Button, Navigation, MyProvider } from "./burger.js";
 
 function Nav() {
   return (
@@ -12,7 +12,15 @@ function Nav() {
             <h1 className="logo-heading">nannalaursen</h1>
           </Link>
         </div>
-        <GiHamburgerMenu className="burger" />
+        <div className="burgermenu">
+          <MyProvider>
+            <div>
+              <Button />
+              <Navigation />
+            </div>
+          </MyProvider>
+        </div>
+
         <nav className="nav">
           <div className="nav-box">
             <Link to="/" className="nav-box-link">

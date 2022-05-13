@@ -12,9 +12,9 @@ function Home() {
       <section className="home-section1">
         <h1 className="home-section1-heading">Webdesign og webudvikling</h1>
         <p className="home-section1-text">
-          Freelance webudvikler og webudviklerstuderende. Jeg har erfaring med
-          både design og kode. Jeg arbejder blandt andet med WordPress,
-          JavaScript, React, SCSS og Adobe pakken.
+          Nyudannet webudvikler. Jeg har erfaring med både design og kode. Jeg
+          arbejder blandt andet med WordPress, JavaScript, React, SCSS og Adobe
+          pakken.
         </p>
         <span className="home-section1-btn1">
           <a href="/work"> </a>

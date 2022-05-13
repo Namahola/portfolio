@@ -18,13 +18,10 @@
       padding-top: 100px;
       text-transform: uppercase;
       @media (max-width: 600px) {
-        padding-top: 50px;
         height: auto;
         font-size: size(lg);
       }
       @media (max-width: 430px) {
-        padding-top: 20px;
-        height: auto;
         font-size: size(md);
       }
     }

@@ -1,5 +1,6 @@
 import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
+import { FaGithubSquare } from "react-icons/fa";
 import { Link } from "@reach/router";
 import pdf from "../CV_DANSK (2).pdf";
 
@@ -22,6 +23,9 @@ function Footer() {
             href="https://www.linkedin.com/in/nanna-maria-laursen/"
           >
             <TiSocialLinkedin />
+          </a>
+          <a target="_blank\" href="https://github.com/Namahola">
+            <FaGithubSquare />
           </a>
         </div>
         <ul className="footer-menu">

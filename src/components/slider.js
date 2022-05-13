@@ -24,8 +24,6 @@ const Slider = ({ slides }) => {
     return null;
   }
 
-  console.log(current);
-
   return (
     <div className="slider" {...handlers}>
       <MdKeyboardArrowLeft className="slider-arrowLeft" onClick={prevSlide} />

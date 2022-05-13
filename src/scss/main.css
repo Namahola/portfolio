@@ -735,6 +735,7 @@ table {
 
 @media (max-width: 1400px) {
   .gallery {
+    height: auto;
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: (1fr)[3];
@@ -745,7 +746,6 @@ table {
 
 @media (max-width: 1000px) {
   .gallery {
-    height: auto;
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[6];

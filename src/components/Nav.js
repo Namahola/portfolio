@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "@reach/router";
 import pdf from "../CV_DANSK (2).pdf";
-import { Button, Navigation, MyProvider } from "./burger.js";
+import Burger from "./burger.js";
 
 function Nav() {
   return (
@@ -13,12 +13,9 @@ function Nav() {
           </Link>
         </div>
         <div className="burgermenu">
-          <MyProvider>
-            <div>
-              <Button />
-              <Navigation />
-            </div>
-          </MyProvider>
+          <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
+
+          <div id="page-wrap"></div>
         </div>
 
         <nav className="nav">

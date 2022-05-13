@@ -1,46 +1,27 @@
-import React, { useState, useContext } from "react";
+import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import { GiHamburgerMenu } from "react-icons/gi";
+import pdf from "../CV_DANSK (2).pdf";
 
-// make a new context
-const MyContext = React.createContext();
-
-// create the provider
-export const MyProvider = (props) => {
-  const [menuOpenState, setMenuOpenState] = useState(false);
-
+const Burger = (props) => {
   return (
-    <MyContext.Provider
-      value={{
-        isMenuOpen: menuOpenState,
-        toggleMenu: () => setMenuOpenState(!menuOpenState),
-        stateChangeHandler: (newState) => setMenuOpenState(newState.isOpen),
-      }}
-    >
-      {props.children}
-    </MyContext.Provider>
+    <Menu {...props}>
+      <a className="menu-item" href="/">
+        Hjem
+      </a>
+
+      <a className="menu-item" href="/work">
+        Projekter
+      </a>
+
+      <a className="menu-item" href={pdf} target="_blank" rel="noreferrer">
+        CV
+      </a>
+
+      <a className="menu-item" href="/#footer">
+        Kontakt
+      </a>
+    </Menu>
   );
 };
 
-// create a button that calls a context function to set a new open state when clicked
-export const Button = () => {
-  const ctx = useContext(MyContext);
-  return (
-    <GiHamburgerMenu className="burgermenu-icon" onClick={ctx.toggleMenu}>
-      Toggle menu
-    </GiHamburgerMenu>
-  );
-};
-
-// create a navigation component that wraps the burger menu
-export const Navigation = () => {
-  const ctx = useContext(MyContext);
-
-  return (
-    <Menu
-      customBurgerIcon={false}
-      isOpen={ctx.isMenuOpen}
-      onStateChange={(state) => ctx.stateChangeHandler(state)}
-    />
-  );
-};
+export default Burger;

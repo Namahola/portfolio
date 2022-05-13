@@ -165,6 +165,22 @@ table {
   text-transform: uppercase;
 }
 
+@media (max-width: 600px) {
+  .home-section1-heading {
+    padding-top: 50px;
+    height: auto;
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .home-section1-heading {
+    padding-top: 20px;
+    height: auto;
+    font-size: 2rem;
+  }
+}
+
 .home-section1-text {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
@@ -177,6 +193,18 @@ table {
   padding-top: 30px;
   letter-spacing: 1px;
   line-height: 1.2;
+}
+
+@media (max-width: 430px) {
+  .home-section1-text {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 4;
+    grid-area: 2/2/3/6;
+    font-size: 1.5rem;
+    padding: 0px 50px 0px 50px;
+  }
 }
 
 .home-section1-btn1 {
@@ -194,6 +222,12 @@ table {
   margin: 0 15px;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+}
+
+@media (max-width: 430px) {
+  .home-section1-btn1 {
+    width: 150px;
+  }
 }
 
 .home-section1-btn1 a {
@@ -231,6 +265,13 @@ table {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 3px;
+}
+
+@media (max-width: 430px) {
+  .home-section1-btn1 a:before,
+  .home-section1-btn1 a:after {
+    width: 150px;
+  }
 }
 
 .home-section1-btn1 a:before {
@@ -273,6 +314,12 @@ table {
           perspective: 1000px;
 }
 
+@media (max-width: 430px) {
+  .home-section1-btn2 {
+    width: 150px;
+  }
+}
+
 .home-section1-btn2 a {
   font-size: 19px;
   letter-spacing: 1px;
@@ -308,6 +355,13 @@ table {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   border-radius: 3px;
+}
+
+@media (max-width: 430px) {
+  .home-section1-btn2 a:before,
+  .home-section1-btn2 a:after {
+    width: 150px;
+  }
 }
 
 .home-section1-btn2 a:before {
@@ -350,6 +404,42 @@ table {
   text-align: center;
   padding-top: 60px;
   text-transform: uppercase;
+}
+
+@media (max-width: 600px) {
+  .home-section2-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 430px) {
+  .home-section2-heading {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .home-section2 {
+    height: 90vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-section2 {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-section2 {
+    height: 75vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .home-section2 {
+    height: 60vh;
+  }
 }
 
 .header {
@@ -442,7 +532,7 @@ table {
   opacity: 0.5;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .nav {
     display: none;
   }
@@ -539,8 +629,20 @@ table {
   height: 75vh;
   -ms-grid-rows: 5fr 0.8fr 5fr;
       grid-template-rows: 5fr 0.8fr 5fr;
-  -ms-grid-columns: 1.2fr 8fr 1.2fr;
-      grid-template-columns: 1.2fr 8fr 1.2fr;
+  -ms-grid-columns: 1fr 10fr 1fr;
+      grid-template-columns: 1fr 10fr 1fr;
+}
+
+@media (max-width: 600px) {
+  .slider {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .slider {
+    height: 40vh;
+  }
 }
 
 .slider-img {
@@ -549,12 +651,6 @@ table {
   height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
-}
-
-@media (max-width: 800px) {
-  .slider-img {
-    padding: 20px 10px 0px 10px;
-  }
 }
 
 .slider-arrowRight {
@@ -573,12 +669,6 @@ table {
 
 .slider-arrowRight:hover {
   opacity: 0.5;
-}
-
-@media (max-width: 800px) {
-  .slider-arrowRight {
-    padding-left: 20px;
-  }
 }
 
 .slider-arrowLeft {
@@ -605,13 +695,6 @@ table {
 
 .slider-arrowLeft:hover {
   opacity: 0.5;
-}
-
-@media (max-width: 800px) {
-  .slider {
-    -ms-grid-columns: 1fr 10fr 1fr;
-        grid-template-columns: 1fr 10fr 1fr;
-  }
 }
 
 .slide {
@@ -718,7 +801,7 @@ table {
   display: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
   .burgermenu {
     display: -ms-grid;
     display: grid;
@@ -737,7 +820,7 @@ table {
   display: inline-block;
   /* Our sidebar item styling */
   text-decoration: none;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: #d1d1d1;
   -webkit-transition: color 0.2s;
   transition: color 0.2s;
@@ -752,7 +835,7 @@ table {
   width: 36px;
   height: 30px;
   right: 36px;
-  top: 36px;
+  top: 30px;
 }
 
 /* Color/shape of burger icon bars */

@@ -108,7 +108,7 @@
         text-decoration: none;
         color: white;
         &:hover {
-          opacity: 50%;
+          opacity: 0.5;
         }
       }
     }
@@ -125,7 +125,7 @@
       font-size: size(md);
       padding-right: 10px;
       &:hover {
-        opacity: 50%;
+        opacity: 0.5;
       }
     }
   }

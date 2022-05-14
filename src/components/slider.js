@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { SliderData } from "./sliderData";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from "react-icons/md";
 import { useSwipeable } from "react-swipeable";
+import { Link } from "react-router-dom";
 
 const Slider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -29,8 +30,8 @@ const Slider = ({ slides }) => {
       <MdKeyboardArrowLeft className="slider-arrowLeft" onClick={prevSlide} />
       <MdKeyboardArrowRight className="slider-arrowRight" onClick={nextSlide} />
       {SliderData.map((slide, index) => (
-        <a
-          href="/work"
+        <Link
+          to="/work"
           className={index === current ? "slide active" : "slide "}
           key={index}
         >
@@ -42,7 +43,7 @@ const Slider = ({ slides }) => {
               className="slider-img"
             />
           )}
-        </a>
+        </Link>
       ))}
     </div>
   );

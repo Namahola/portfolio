@@ -2,7 +2,7 @@
   &-section1 {
     background-color: color(primary);
     text-align: center;
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-rows: 1fr 1.5fr 0.5fr 1fr;
     grid-template-columns: repeat(6, 1fr);
@@ -15,8 +15,11 @@
       font-family: $font-poiret;
       font-size: size(xl);
       font-weight: bolder;
-      padding-top: 100px;
+      padding-top: 200px;
       text-transform: uppercase;
+      @media (max-width: 1200px) {
+        padding-top: 100px;
+      }
       @media (max-width: 600px) {
         height: auto;
         font-size: size(lg);

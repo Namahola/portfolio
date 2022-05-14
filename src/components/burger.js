@@ -1,25 +1,26 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
 import pdf from "../CV_DANSK (2).pdf";
+import { Link } from "react-router-dom";
 
 const Burger = (props) => {
   return (
     <Menu {...props}>
-      <a className="menu-item" href="/">
+      <Link className="menu-item" to="/">
         Hjem
-      </a>
+      </Link>
 
-      <a className="menu-item" href="/work">
+      <Link className="menu-item" to="/work">
         Projekter
-      </a>
+      </Link>
 
-      <a className="menu-item" href={pdf} target="_blank" rel="noreferrer">
+      <Link className="menu-item" to={pdf} target="_blank" rel="noreferrer">
         CV
-      </a>
+      </Link>
 
-      <a className="menu-item" href="/#footer">
+      <Link className="menu-item" to="/#footer">
         Kontakt
-      </a>
+      </Link>
     </Menu>
   );
 };

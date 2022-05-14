@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Nav />
+
         <Routes>
           <Route path="/" element={<App />} />
           <Route index element={<Home />} />

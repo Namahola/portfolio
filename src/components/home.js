@@ -3,6 +3,7 @@ import Footer from "./footer";
 import Nav from "./Nav";
 import Slider from "./slider";
 import SliderData from "./sliderData.js";
+import { Link } from "react-router-dom";
 
 function Home() {
   useLayoutEffect(() => {
@@ -19,7 +20,7 @@ function Home() {
           pakken.
         </p>
         <span className="home-section1-btn1">
-          <a href="/work"> </a>
+          <Link to="/work"> </Link>
         </span>
         <span className="home-section1-btn2">
           <a href="/#footer"> </a>

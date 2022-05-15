@@ -620,7 +620,7 @@ table {
 }
 
 .footer-menu-item-link:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .footer-social {
@@ -644,7 +644,7 @@ table {
 }
 
 .footer-social a:hover {
-  opacity: 0.5;
+  opacity: 0.8;
 }
 
 .slider {

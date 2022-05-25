@@ -27,7 +27,6 @@ export const GalleryData = [
     small: vikingfoodSmall,
     large: vikingfoodLarge,
     id: "image3",
-    url: "https://vikingfood.namahola.dk/",
   },
   {
     small: iotSmall,
@@ -39,7 +38,6 @@ export const GalleryData = [
     small: excaliburSmall,
     large: excaliburLarge,
     id: "image5",
-    url: "https://excalibur.namahola.dk/",
   },
   {
     small: naturaarhusSmall,

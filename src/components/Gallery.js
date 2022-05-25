@@ -10,7 +10,7 @@ const Gallery = () => {
       {GalleryData.map((image) => (
         <div>
           {" "}
-          <a href={image.url}>
+          <a href={image.url} target="_blank" rel="noreferrer">
             <img
               src={image.small}
               alt="Billede af projekt"

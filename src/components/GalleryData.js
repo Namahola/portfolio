@@ -16,6 +16,7 @@ export const GalleryData = [
     small: leonardoSmall,
     large: leonardoLarge,
     id: "image1",
+    url: "www.leonardo.namahola.dk",
   },
   {
     small: verdensendeSmall,
@@ -26,21 +27,25 @@ export const GalleryData = [
     small: vikingfoodSmall,
     large: vikingfoodLarge,
     id: "image3",
+    url: "www.vikingfood.namahola.dk",
   },
   {
     small: iotSmall,
     large: iotLarge,
     id: "image4",
+    url: "www.iot.namahola.dk",
   },
   {
     small: excaliburSmall,
     large: excaliburLarge,
     id: "image5",
+    url: "www.excalibur.namahola.dk",
   },
   {
     small: naturaarhusSmall,
     large: naturaarhusLarge,
     id: "image6",
+    url: "www.naturaarhus.namahola.dk",
   },
 ];
 

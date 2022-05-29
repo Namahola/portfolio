@@ -1,4 +1,5 @@
 import React, { useLayoutEffect } from "react";
+import { Link } from "react-router-dom";
 import Footer from "./footer.js";
 import Nav from "./Nav.js";
 import WorkData from "./WorkData.js";
@@ -28,6 +29,11 @@ function Work() {
               />
             </a>
             <p className="project-description">{image.description}</p>
+            <div className="project-btn">
+              <a href={image.url} target="_blank" rel="noreferrer">
+                Se siden her
+              </a>
+            </div>
           </div>
         ))}
       </section>

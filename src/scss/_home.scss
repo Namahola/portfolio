@@ -152,7 +152,7 @@
     }
   }
   &-section2 {
-    height: 120vh;
+    height: auto;
     background-color: color(primary);
     &-heading {
       grid-area: 1/3/2/4;
@@ -168,18 +168,6 @@
       @media (max-width: 430px) {
         font-size: size(md);
       }
-    }
-    @media (max-width: 800px) {
-      height: 90vh;
-    }
-    @media (max-width: 600px) {
-      height: 75vh;
-    }
-    @media (max-width: 600px) {
-      height: 75vh;
-    }
-    @media (max-width: 450px) {
-      height: 60vh;
     }
   }
 }

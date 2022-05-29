@@ -1,5 +1,4 @@
 import "./scss/main.scss";
-import Nav from "./components/Nav.js";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
 import Work from "./components/work";

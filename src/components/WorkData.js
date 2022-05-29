@@ -14,7 +14,7 @@ export const WorkData = [
   {
     title: "Naturbeskyttelse med IoT",
     description:
-      "Hjemmeside om Internet of Things og dets anvendelse indenfor naturbeskyttelse. Siden er designet og kodet af mig, i HTML, SCSS og JavaScript. Logoet er designet af mig, og lavet i Illustrator. Tekster er skrevet af mig. ",
+      "Hjemmeside om Internet of Things og dets anvendelse indenfor naturbeskyttelse. Siden er designet og kodet af mig, i HTML, SCSS og JavaScript. Logoet er designet af mig, og tegnet i Illustrator. Tekster er skrevet af mig. ",
     src: iotLarge,
     id: "image3",
     url: "https://iot.namahola.dk/",

@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import { Link } from "react-router-dom";
 import Footer from "./footer.js";
 import Nav from "./Nav.js";
 import WorkData from "./WorkData.js";

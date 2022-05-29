@@ -396,7 +396,7 @@ table {
 
 .home-section2 {
   height: 120vh;
-  background-color: #013440;
+  background-color: #011526;
 }
 
 .home-section2-heading {
@@ -963,6 +963,49 @@ table {
 .__react_modal_image__medium_img {
   width: 80%;
   height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.work-section {
+  height: 200vh;
+  background-color: #011526;
+}
+
+.project {
+  padding: 100px 80px 0px 80px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 5fr;
+      grid-template-rows: 1fr 5fr;
+}
+
+.project-title {
+  grid-area: 1/1/-1/-1;
+  font-family: "Poiret One", sans-serif;
+  font-size: 3rem;
+  color: white;
+  padding: 0px 0px 20px 0px;
+}
+
+.project-description {
+  grid-area: 2/2/-1/-1;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.project-link {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2/1/-1/2;
+}
+
+.project-img {
+  width: 600px;
+  height: 100%;
   -o-object-fit: contain;
      object-fit: contain;
 }

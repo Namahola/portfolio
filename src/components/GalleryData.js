@@ -22,11 +22,13 @@ export const GalleryData = [
     small: verdensendeSmall,
     large: verdensendeLarge,
     id: "image2",
+    url: "https://namahola.dk/work",
   },
   {
     small: vikingfoodSmall,
     large: vikingfoodLarge,
     id: "image3",
+    url: "https://namahola.dk/work",
   },
   {
     small: iotSmall,
@@ -38,6 +40,7 @@ export const GalleryData = [
     small: excaliburSmall,
     large: excaliburLarge,
     id: "image5",
+    url: "https://namahola.dk/work",
   },
   {
     small: naturaarhusSmall,

@@ -8,8 +8,6 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Nav />
-
         <Routes>
           <Route path="/" element={<App />} />
           <Route index element={<Home />} />

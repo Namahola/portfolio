@@ -1,9 +1,8 @@
 import React, { useLayoutEffect } from "react";
 import Footer from "./footer";
 import Nav from "./Nav";
-import Slider from "./slider";
-import SliderData from "./sliderData.js";
 import { Link } from "react-router-dom";
+import Gallery from "./Gallery.js";
 
 function Home() {
   useLayoutEffect(() => {
@@ -28,7 +27,7 @@ function Home() {
       </section>
       <section className="home-section2">
         <h2 className="home-section2-heading">Projekter</h2>
-        <Slider slides={SliderData} />
+        <Gallery />
       </section>
 
       <Footer />

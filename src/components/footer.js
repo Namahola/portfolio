@@ -1,6 +1,7 @@
 import React from "react";
 import { TiSocialLinkedin } from "react-icons/ti";
-import { Link } from "@reach/router";
+import { FaGithubSquare } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import pdf from "../CV_DANSK (2).pdf";
 
 function Footer() {
@@ -11,17 +12,23 @@ function Footer() {
           <li className="footer-contact-item">Kontakt</li>
           <li className="footer-contact-item">Nanna Laursen</li>
           <li className="footer-contact-item">
-            E-mail:
-            <a href="mailto:nannalaursen@gmail.com"> nannalaursen@gmail.com</a>
+            <a href="mailto:nannalaursen@gmail.com"> Send e-mail</a>
           </li>
-          <li className="footer-contact-item">Telefon: 28515736</li>
         </ul>
         <div className="footer-social">
           <a
-            target="_blank\"
+            target="_blank"
+            rel="noreferrer"
             href="https://www.linkedin.com/in/nanna-maria-laursen/"
           >
             <TiSocialLinkedin />
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/Namahola"
+          >
+            <FaGithubSquare />
           </a>
         </div>
         <ul className="footer-menu">
@@ -36,14 +43,14 @@ function Footer() {
             </Link>
           </li>
           <li className="footer-menu-item">
-            <a
-              href={pdf}
+            <Link
+              to={pdf}
               target="_blank"
               rel="noreferrer"
               className="footer-menu-item-link"
             >
               CV
-            </a>
+            </Link>
           </li>
         </ul>
       </footer>

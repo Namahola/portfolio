@@ -1,7 +1,7 @@
 import React from "react";
-import { Link } from "@reach/router";
-import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 import pdf from "../CV_DANSK (2).pdf";
+import Burger from "./burger.js";
 
 function Nav() {
   return (
@@ -12,7 +12,12 @@ function Nav() {
             <h1 className="logo-heading">nannalaursen</h1>
           </Link>
         </div>
-        <GiHamburgerMenu className="burger" />
+        <div className="burgermenu">
+          <Burger pageWrapId={"page-wrap"} outerContainerId={"App"} />
+
+          <div id="page-wrap"></div>
+        </div>
+
         <nav className="nav">
           <div className="nav-box">
             <Link to="/" className="nav-box-link">

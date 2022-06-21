@@ -1,4 +1,4 @@
-import leonardo from "../img/leonardoLarge.PNG";
+import leonardo from "../img/leonardoLarge.png";
 import iotLarge from "../img/iotLarge.png";
 import naturaarhusLarge from "../img/naturAarhusLarge.png";
 

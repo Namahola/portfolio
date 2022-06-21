@@ -2,7 +2,7 @@ import React, { useLayoutEffect } from "react";
 import Footer from "./footer";
 import Nav from "./Nav";
 import { Link } from "react-router-dom";
-import Gallery from "./Gallery.js";
+import Gallery from "./Gallery";
 
 function Home() {
   useLayoutEffect(() => {

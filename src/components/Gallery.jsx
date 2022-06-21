@@ -1,4 +1,4 @@
-import { GalleryData } from "./GalleryData.js";
+import { GalleryData } from "./GalleryData";
 import React, { useLayoutEffect } from "react";
 
 const Gallery = () => {

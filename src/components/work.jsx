@@ -1,7 +1,7 @@
 import React, { useLayoutEffect } from "react";
-import Footer from "./footer.js";
-import Nav from "./Nav.js";
-import WorkData from "./WorkData.js";
+import Footer from "./footer";
+import Nav from "./Nav";
+import WorkData from "./WorkData";
 
 function Work() {
   useLayoutEffect(() => {

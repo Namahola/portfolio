@@ -13,6 +13,18 @@ import excaliburLarge from "../img/excaliburLarge.png";
 
 export const GalleryData = [
   {
+    small: iotSmall,
+    large: iotLarge,
+    id: "image4",
+    url: "https://iot.namahola.dk/",
+  },
+  {
+    small: naturaarhusSmall,
+    large: naturaarhusLarge,
+    id: "image6",
+    url: "https://naturaarhus.namahola.dk/",
+  },
+  {
     small: leonardoSmall,
     large: leonardoLarge,
     id: "image1",
@@ -30,24 +42,14 @@ export const GalleryData = [
     id: "image3",
     url: "https://namahola.dk/",
   },
-  {
-    small: iotSmall,
-    large: iotLarge,
-    id: "image4",
-    url: "https://iot.namahola.dk/",
-  },
+
   {
     small: excaliburSmall,
     large: excaliburLarge,
     id: "image5",
     url: "https://www.namahola.dk/",
   },
-  {
-    small: naturaarhusSmall,
-    large: naturaarhusLarge,
-    id: "image6",
-    url: "https://naturaarhus.namahola.dk/",
-  },
+
 ];
 
 export default GalleryData;

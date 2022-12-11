@@ -14,9 +14,9 @@ function Home() {
       <section className="home-section1">
         <h1 className="home-section1-heading">Webdesign og webudvikling</h1>
         <p className="home-section1-text">
-          Nyudannet webudvikler. Jeg har erfaring med både design og kode. Jeg
+          Uddannet webudvikler. Jeg har erfaring med både design og kode. Jeg
           arbejder blandt andet med WordPress, JavaScript, React, SCSS og Adobe
-          pakken.
+          pakken. Se nogle af mine projekter herunder.
         </p>
         <span className="home-section1-btn1">
           <Link to="/work"> </Link>

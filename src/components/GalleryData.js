@@ -1,17 +1,26 @@
-import leonardoSmall from "../img/leonardoSmall.png";
-import leonardoLarge from "../img/leonardoLarge.png";
-import verdensendeSmall from "../img/verdensEndeSmall.png";
-import verdensendeLarge from "../img/verdensEndeLarge.png";
-import vikingfoodLarge from "../img/vikingfoodLarge.png";
-import vikingfoodSmall from "../img/vikingfoodSmall.png";
-import iotSmall from "../img/iotSmall.png";
-import iotLarge from "../img/iotLarge.png";
-import naturaarhusSmall from "../img/naturAarhusSmall.png";
-import naturaarhusLarge from "../img/naturAarhusLarge.png";
-import excaliburSmall from "../img/excaliburSmall.png";
-import excaliburLarge from "../img/excaliburLarge.png";
+import leonardoSmall from "../img/leonardoSmall.webp";
+import leonardoLarge from "../img/leonardoLarge.webp";
+import verdensendeSmall from "../img/verdensEndeSmall.webp";
+import verdensendeLarge from "../img/verdensEndeLarge.webp";
+import vikingfoodLarge from "../img/vikingfoodLarge.webp";
+import vikingfoodSmall from "../img/vikingfoodSmall.webp";
+import iotSmall from "../img/iotSmall.webp";
+import iotLarge from "../img/iotLarge.webp";
+import naturaarhusSmall from "../img/naturAarhusSmall.webp";
+import naturaarhusLarge from "../img/naturAarhusLarge.webp";
+import excaliburSmall from "../img/excaliburSmall.webp";
+import excaliburLarge from "../img/excaliburLarge.webp";
+import shadowWindowsLarge from "../img/shadowWindowsLarge.webp"
+import shadowWindowsSmall from "../img/shadowWindowsSmall.webp"
+import openGraph from "../img/namahola.png";
 
 export const GalleryData = [
+  {
+    small: shadowWindowsSmall,
+    large: shadowWindowsLarge,
+    id: "image8",
+    url: "https://www.shadowwindows.com/",
+  },
   {
     small: iotSmall,
     large: iotLarge,
@@ -46,7 +55,7 @@ export const GalleryData = [
   {
     small: excaliburSmall,
     large: excaliburLarge,
-    id: "image5",
+    id: "image7",
     url: "https://www.namahola.dk/",
   },
 

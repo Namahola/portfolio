@@ -1,8 +1,17 @@
-import leonardo from "../img/leonardoLarge.png";
-import iotLarge from "../img/iotLarge.png";
-import naturaarhusLarge from "../img/naturAarhusLarge.png";
+import leonardo from "../img/leonardoLarge.webp";
+import iotLarge from "../img/iotLarge.webp";
+import naturaarhusLarge from "../img/naturAarhusLarge.webp";
+import shadowWindowsLarge from "../img/shadowWindowsLarge.webp"
 
 export const WorkData = [
+  {
+    title: "ShadowWindows",
+    description:
+      "Hjemmeside og webshop der sælger solafskærmning. Redesignet af mig, og opbygget i WordPress med Elementor.",
+    src: shadowWindowsLarge,
+    id: "image4",
+    url: "https://shadowwindows.com/",
+  },
   {
     title: "Natur Aarhus",
     description:

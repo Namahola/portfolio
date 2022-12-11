@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import pdf from "../CV_DANSK (2).pdf";
+import pdf from "../CV_DANSK.pdf";
 import Burger from "./burger";
 
 function Nav() {

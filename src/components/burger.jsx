@@ -1,6 +1,6 @@
 import React from "react";
 import { slide as Menu } from "react-burger-menu";
-import pdf from "../CV_DANSK (2).pdf";
+import pdf from "../CV_DANSK.pdf";
 import { Link } from "react-router-dom";
 
 const Burger = (props) => {

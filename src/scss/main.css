@@ -159,9 +159,9 @@ table {
   padding-top: 200px;
   text-transform: uppercase;
 }
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
   .home-section1-heading {
-    padding-top: 100px;
+    padding-top: 120px;
   }
 }
 @media (max-width: 600px) {
@@ -243,6 +243,11 @@ table {
 .home-section1-btn1 a:hover {
   transform: translateZ(-25px) rotateX(-90deg);
 }
+@media (max-width: 1400px) {
+  .home-section1-btn1 {
+    padding-top: 30px;
+  }
+}
 @media (max-width: 800px) {
   .home-section1-btn1 {
     padding-top: 50px;
@@ -300,6 +305,11 @@ table {
 .home-section1-btn2 a:hover {
   transform: translateZ(-25px) rotateX(-90deg);
 }
+@media (max-width: 1400px) {
+  .home-section1-btn2 {
+    padding-top: 30px;
+  }
+}
 @media (max-width: 800px) {
   .home-section1-btn2 {
     padding-top: 50px;
@@ -355,17 +365,7 @@ table {
 }
 .logo:hover {
   opacity: 0.7;
-  -webkit-animation: logo 1s;
-          animation: logo 1s;
-}
-
-@-webkit-keyframes logo {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(5deg);
-  }
+  animation: logo 1s;
 }
 
 @keyframes logo {
@@ -513,7 +513,6 @@ table {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 .slider-arrowRight:hover {
@@ -527,7 +526,6 @@ table {
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
-      -ms-user-select: none;
           user-select: none;
 }
 @media (max-width: 800px) {

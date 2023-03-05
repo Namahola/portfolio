@@ -17,8 +17,8 @@
       font-weight: bolder;
       padding-top: 200px;
       text-transform: uppercase;
-      @media (max-width: 1200px) {
-        padding-top: 100px;
+      @media (max-width: 1400px) {
+        padding-top: 120px;
       }
       @media (max-width: 600px) {
         height: auto;
@@ -92,6 +92,9 @@
       & a:hover {
         transform: translateZ(-25px) rotateX(-90deg);
       }
+      @media (max-width: 1400px) {
+        padding-top: 30px;
+      }
       @media (max-width: 800px) {
         padding-top: 50px;
       }
@@ -145,6 +148,9 @@
       }
       & a:hover {
         transform: translateZ(-25px) rotateX(-90deg);
+      }
+      @media (max-width: 1400px) {
+        padding-top: 30px;
       }
       @media (max-width: 800px) {
         padding-top: 50px;
